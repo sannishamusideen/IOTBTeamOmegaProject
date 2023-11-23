@@ -10,6 +10,11 @@
 img {
   width: 100%;
 }
+p,
+a,
+li {
+  font-size: 16px !important;
+}
 
 .container {
   max-width: 1100px;
@@ -104,7 +109,7 @@ form input {
   padding: 5px;
 }
 
-input:focus-visible {   
+input:focus-visible {
   outline: none;
 }
 
@@ -556,8 +561,6 @@ footer {
   border: 1px solid #38a926;
   padding: 10px;
   text-align: center;
-  max-width: 200px;
-  margin: 0 auto;
   margin-bottom: 20px;
 }
 
@@ -607,7 +610,7 @@ footer {
   border-radius: 7px;
   margin-bottom: 10px;
 }
-.course-details-bttn a{
+.course-details-bttn a {
   color: #000;
 }
 
@@ -665,10 +668,10 @@ footer {
   width: 100px;
   height: 100px;
 }
-.p-leds{
+.p-leds {
   color: #38a926;
 }
-.tutor-profile{
+.tutor-profile {
   text-align: center;
   margin-bottom: 30px;
 }
@@ -680,11 +683,11 @@ footer {
 }
 
 .tutor-profile img {
-  width:250px;
+  width: 250px;
   height: 200px;
 }
 
-.cert{
+.cert {
   margin: 30px 0 80px 0;
 }
 
@@ -695,15 +698,15 @@ footer {
   list-style-type: disc;
   margin-left: 15px;
 }
-.each-past-student{
+.each-past-student {
   border: 1px solid #38a926;
-  width: 200px;
+  /* width: 200px; */
   border-radius: 10px;
   padding: 10px;
   margin: 10px 0;
 }
 
-.past-words{
+.past-words {
   font-size: 12px;
 }
 .past-icon {
@@ -711,18 +714,14 @@ footer {
   height: 20px;
   margin-right: 10px;
 }
-.past-name  p {
-font-size: 8px;
+.past-name p {
+  font-size: 8px;
 }
-.past-profile{
+.past-profile {
   display: flex;
   align-items: center;
   margin: 20px 0 10px 0;
 }
-
-
-
-
 
 @media (max-width: 950px) {
   nav {
@@ -753,6 +752,18 @@ font-size: 8px;
   nav .sign-up {
     display: block;
     margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .all-courses {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .each-stack {
+    width: 46%;
   }
 }
 
@@ -874,11 +885,7 @@ font-size: 8px;
     display: flex;
     justify-content: space-between;
   }
-  .all-courses {
-    display: flex;
-    justify-content: space-between;
-  }
-  .tutor-profile{
+  .tutor-profile {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -889,5 +896,7 @@ font-size: 8px;
     text-align: left;
     width: 650px;
   }
-
+  .each-stack {
+    width: 22%;
+  }
 }
