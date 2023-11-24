@@ -578,7 +578,6 @@ footer {
 }
 
 .stack {
-
   margin: 15px 0;
 }
 
@@ -636,7 +635,8 @@ footer {
 }
 
 .apply-course-bttn,
-.community-bttn {
+.community-bttn,
+.community-bttn-bottom {
   background-color: #38a926;
   color: white;
   padding: 15px 20px;
@@ -644,6 +644,10 @@ footer {
   border: 1px;
   margin: 20px 0;
   font-weight: 700;
+}
+.community-bttn-bottom {
+  display: flex;
+  margin: 40px auto;
 }
 
 .session {
@@ -730,6 +734,29 @@ footer {
   align-items: center;
   margin: 20px 0 10px 0;
 }
+.flex-benefits {
+  text-align: center;
+  margin: 20px 0 40px;
+}
+.each-benefit {
+  border: 1px solid #38a926;
+  display: inline-block;
+  border-radius: 7px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0;
+}
+.each-benefit img {
+  width: 50px;
+  height: 50px;
+  margin: 10px 0 5px;
+}
+.each-benefit .know {
+  margin: 5px 0 10px;
+}
+.each-benefit .learn {
+  margin: 5px 0 10px;
+}
 
 @media (max-width: 950px) {
   nav {
@@ -764,13 +791,15 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .all-courses {
+  .all-courses,
+  .flex-benefits {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
 
-  .each-stack {
+  .each-stack,
+  .each-benefit {
     width: 46%;
   }
 }
@@ -906,5 +935,8 @@ footer {
   }
   .each-stack {
     width: 22%;
+  }
+  .each-benefit {
+    width: 30%;
   }
 }
