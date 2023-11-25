@@ -885,14 +885,24 @@ footer {
   width: 25px;
   height: 25px;
 }
-.bell{
+.bell {
   margin-right: 10px;
+}
+.notify-h3 {
+  color: #38a926;
+  margin: 20px 0;
+}
+.notify-word {
+  margin: 20px 0;
+}
+.flex-bttn {
+  text-align: center;
 }
 .flex-notify {
   background-color: #f1fdeb;
   border-radius: 10px;
   padding: 20px;
-  width: 80%;
+  width: 75%;
 }
 .flex-bell {
   display: flex;
@@ -908,6 +918,11 @@ footer {
 .not-time-flex {
   display: flex;
   width: 20%;
+}
+.ball {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
 }
 
 @media (max-width: 950px) {
