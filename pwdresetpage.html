@@ -4,24 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New Password Page</title>
-    <link rel="icon" href="./assets/images/favicon-32x32.png" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" href="./assets/images/favicon-32x32.png" />
+    <title>Password Reset Page</title>
   </head>
   <body>
-    <section class="flex-new-pwd">
-      <section class="new-pwd-form">
+    <section class="flex-pwd-reset">
+      <section class="pwd-reset-form">
         <div>
           <h4>Hi, Companion</h4>
-          <p>Enter your old and new password</p>
+          <p class="sign-in">
+            Enter your email to get your OTP to reset your password
+          </p>
           <form action="">
-            <label for="otp">Old Password</label>
-            <input type="text" name="otp" />
-
-            <label for="newpwd">New Password</label>
-            <input type="text" name="newpwd" />
-
-            <button class="continue-bttn">Continue</button>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" />
+            <button class="continue-bttn"> <a href="newpwdreset.html">Continue</a> </button>
           </form>
         </div>
       </section>
