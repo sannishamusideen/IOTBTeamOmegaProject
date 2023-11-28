@@ -22,8 +22,9 @@ li {
   padding: 0 20px;
 }
 .navbar {
-  /* background-color: hsl(0, 0%, 98%); */
+  background-color: hsl(0, 0%, 98%);
   position: fixed;
+  top: 0;
   z-index: 1000;
   width: 100%;
 }
@@ -311,6 +312,9 @@ a.forget {
   top: 14px;
   right: 8px;
 }
+.flex-dash-banner{
+  padding-top: 120px;
+}
 .flex-dash-banner .banner_img {
   max-width: 80%;
 }
@@ -534,6 +538,7 @@ footer {
 
 .course-banner {
   text-align: center;
+  padding-top: 120px;
   margin-bottom: 40px;
 }
 
@@ -757,7 +762,7 @@ footer {
 }
 .each-benefit {
   border: 1px solid #38a926;
-  display: inline-block;
+  /* display: inline-block; */
   border-radius: 7px;
   padding: 10px;
   text-align: center;
@@ -933,9 +938,9 @@ footer {
     position: relative;
   }
 
-  .overflow {
+  /* .overflow {
     overflow: hidden;
-  }
+  } */
   .nav-list {
     display: block;
     position: absolute;
