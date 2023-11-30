@@ -932,6 +932,9 @@ footer {
   height: 10px;
   margin-right: 10px;
 }
+.ann-dash{
+  padding-top: 100px;
+}
 
 @media (max-width: 950px) {
   nav {
