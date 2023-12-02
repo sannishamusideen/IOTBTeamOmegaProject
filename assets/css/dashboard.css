@@ -18,6 +18,9 @@ li {
 a {
   color: black;
 }
+.a {
+  display: flex;
+}
 h2 {
   color: #38a926;
 }
@@ -147,14 +150,17 @@ input {
   border-radius: 5px;
   padding: 10px;
 }
-button {
+.bttn-dash {
+  margin: 30px 0;
+}
+.dash-bttn {
   background-color: #38a926;
   color: white;
   border-radius: 5px;
   border: 1px;
   width: 112px;
   padding: 10px;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 .courses-list-dash {
   margin: 30px 0;
@@ -186,6 +192,81 @@ button {
 .dash-tab li {
   margin: 20px 0;
   display: flex;
+}
+.coursearea-div {
+  padding-top: 100px;
+  width: 320px;
+  margin: 20px;
+}
+.coursearea-div img {
+  width: 320px;
+  height: 320px;
+  border-top: 10px solid rgb(179, 198, 171);
+  border-radius: 10px 10px 0 0;
+}
+.coursearea {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(179, 198, 171);
+  border-radius: 0 0 10px 10px;
+}
+.bttn-area {
+  padding: 10px;
+  margin: 0;
+  background-color: #38a926;
+  border: 1px;
+  color: white;
+  width: 134px;
+  border-radius: 10px;
+}
+.bttn-area2 {
+  width: 134px;
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(172, 125, 30, 0.9);
+  color: white;
+  border: 1px;
+  border-radius: 10px;
+}
+.bttn-coursearea-div {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.flex-coursearea {
+  width: 1400px;
+  /* display: flex; */
+}
+
+.all-form {
+  margin-top: 100px;
+}
+
+.flex-form {
+  display: flex;
+}
+.flex-name {
+  display: grid;
+}
+.fl {
+  margin-right: 100px;
+}
+.pro-input {
+  width: 150px;
+}
+
+.pro-bttn {
+  background-color: #38a926;
+  color: white;
+  border-radius: 5px;
+  border: 1px;
+  width: 440px;
+  padding: 10px;
+  margin: 30px 0;
+}
+
+input:focus-visible {
+  outline: none;
 }
 
 @media (max-width: 768px) {

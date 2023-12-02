@@ -4,59 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="icon" href="./assets/images/favicon-32x32.png" />
+    <link rel="icon" href="/assets/images/favicon-32x32.png" />
     <link rel="stylesheet" href="/assets/css/dashboard.css" />
   </head>
   <body>
-    <section style="display: none" class="fixed-bars">
-      <section class="dash-first-section">
-        <div class="logo">
-          <img src="/assets/images/timsan-logo 1.png" alt="" />
-          <strong>IOTB Techpreneur</strong>
-        </div>
-
-        <ul>
-          <li>
-            <img src="/assets/images/pajamas_dashboard.svg" alt="" />Dashboard
-          </li>
-
-          <li>
-            <img src="/assets/images/iconamoonprofile-fill.svg" alt="" />Edit
-            Profile
-          </li>
-
-          <li>
-            <img
-              src="/assets/images/icon-park-solid_setting (2).svg"
-              alt=""
-            />Password Settings
-          </li>
-        </ul>
-      </section>
-      <section class="body-flex">
-        <section class="flex-list">
-          <ul class="nav-list">
-            <li><a href="./courses.html" target="_blank">Courses</a></li>
-            <li><a href="./community.html">Community</a></li>
-            <li>
-              <a href="./notification.html" target="_blank">Notification</a>
-            </li>
-            <li><a href="#support">Support</a></li>
-            <li>
-              <a href="./annoucement.html" target="_blank">Annoucement</a>
-            </li>
-          </ul>
-
-          <section>
-            <div>
-              <h2>Course</h2>
-              <p>Product Design (UI/UX)</p>
-            </div>
-          </section>
-        </section>
-      </section>
-    </section>
-
     <section class="all">
       <section class="flex-all">
         <div class="first">
@@ -77,17 +28,21 @@
               </li>
 
               <li>
-                <img
-                  src="/assets/images/iconamoonprofile-fill.svg"
-                  alt=""
-                />Edit Profile
+                <a class="a" href="/dashboard/profile.html"
+                  ><img
+                    src="/assets/images/iconamoonprofile-fill.svg"
+                    alt=""
+                  />Edit Profile</a
+                >
               </li>
 
               <li>
-                <img
-                  src="/assets/images/icon-park-solid_setting (2).svg"
-                  alt=""
-                />Password Settings
+                <a class="a" href="/dashpwdreset.html">
+                  <img
+                    src="/assets/images/icon-park-solid_setting (2).svg"
+                    alt=""
+                  />Password Settings
+                </a>
               </li>
             </ul>
           </div>
@@ -136,7 +91,9 @@
                 <label for="text">Enter your ID to access the course</label>
                 <input type="text" name="" id="" />
                 <div class="bttn-dash">
-                  <button>SUBMIT</button>
+                  <a href="/dashboard/coursearea.html" class="dash-bttn"
+                    >SUBMIT</a
+                  >
                 </div>
               </form>
             </div>

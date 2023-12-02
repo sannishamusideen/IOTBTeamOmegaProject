@@ -312,7 +312,7 @@ a.forget {
   top: 14px;
   right: 8px;
 }
-.flex-dash-banner{
+.flex-dash-banner {
   padding-top: 120px;
 }
 .flex-dash-banner .banner_img {
@@ -656,6 +656,10 @@ footer {
   margin: 30px 0 50px 0;
 }
 
+.apply-div {
+  margin: 45px 0;
+}
+
 .apply-course-bttn,
 .community-bttn,
 .community-bttn-bottom {
@@ -932,7 +936,7 @@ footer {
   height: 10px;
   margin-right: 10px;
 }
-.ann-dash{
+.ann-dash {
   padding-top: 100px;
 }
 
