@@ -235,7 +235,9 @@ input {
 }
 .flex-coursearea {
   width: 1400px;
-  /* display: flex; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .all-form {
