@@ -993,6 +993,16 @@ textarea:focus-visible {
     display: block;
     margin-bottom: 10px;
   }
+
+  textarea {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  textarea {
+    width: 80%;
+  }
 }
 
 @media (min-width: 768px) {
