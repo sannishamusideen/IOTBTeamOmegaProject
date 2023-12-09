@@ -915,6 +915,17 @@ textarea:focus-visible {
   height: 15px;
   margin-left: 10px;
 }
+.not-circle::before {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 30%;
+  background: #000;
+  position: relative;
+  top: -4px;
+  left: -4px;
+}
+
 .bell,
 .not-delete {
   width: 25px;
