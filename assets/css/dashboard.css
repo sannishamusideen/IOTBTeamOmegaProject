@@ -15,11 +15,20 @@ a,
 li {
   font-size: 16px !important;
 }
+
+ul li {
+  font-weight: 700;
+}
+
+.activate {
+  color: #38a926 !important;
+}
 a {
   color: black;
 }
 .a {
   display: flex;
+  align-items: center;
 }
 h2 {
   color: #38a926;
@@ -116,8 +125,18 @@ ul li img {
 .max-w_c {
   max-width: 1100px;
 }
+.min-w {
+  width: 900px;
+}
+.actively {
+  background-color: #38a926;
+  padding: 5px;
+}
+.actively a {
+  color: black !important;
+}
 .dash-word {
-  margin-top: 80px;
+  margin-top: 150px;
 }
 .courses-list {
   display: block !important;
@@ -192,6 +211,7 @@ input {
 .dash-tab li {
   margin: 20px 0;
   display: flex;
+  align-items: center;
 }
 .coursearea-div {
   padding-top: 100px;
@@ -241,7 +261,7 @@ input {
 }
 
 .all-form {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .flex-form {
@@ -284,7 +304,7 @@ input:focus-visible {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 65px 0;
 
   width: 100%;
 }
