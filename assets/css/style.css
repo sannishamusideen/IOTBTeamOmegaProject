@@ -992,7 +992,7 @@ textarea:focus-visible {
     background-color: white;
     right: -20px;
     top: 78px;
-    width: 300px;
+    width: 250px;
     transform: translateX(320px);
     transition: 0.6s;
   }
@@ -1003,10 +1003,12 @@ textarea:focus-visible {
 
   .nav-list li {
     margin: 10px 0;
+    padding: 10px;
   }
   nav .sign-up {
     display: block;
     margin-bottom: 10px;
+    padding: 10px;
   }
 
   textarea {
