@@ -30,6 +30,10 @@ a {
   display: flex;
   align-items: center;
 }
+.flex-center {
+  display: flex;
+  align-items: center;
+}
 h2 {
   color: #38a926;
 }
